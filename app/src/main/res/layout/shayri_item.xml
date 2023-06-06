@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_gravity="top"
+    android:layout_margin="16dp"
+    android:backgroundTint="#D58D8D"
+    app:cardCornerRadius="20dp">
+
+    <TextView
+        android:id="@+id/txtShayri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="*अंधेरे में छाया*\n*बुढ़ापे में काया*\n*और*\n*अंत समय मे माया*\n*किसी का साथ नहीं देती*\n🌾🌿🌾🌿🌾✍🌾🌿🌾\n🌹👇🏻👇🏻🌹"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
